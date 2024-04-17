@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../SigiDoc-Epidoc_schema/tei-epidoc.xsd"
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Seal of the emperor Maurice</title>
+                <title xml:lang="fr">Sceau de l'empereur Maurice</title>
+                <editor>
+                    <persName xml:id="JC"><forename>Jean-Claude</forename>
+                        <surname>Cheynet</surname></persName>
+                    <persName xml:id="CM"><forename>Cécile</forename>
+                        <surname>Morrisson</surname></persName>
+                    <persName xml:id="WS"><forename>Werner</forename>
+                        <surname>Seibt</surname></persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                </edition>
+                <editor>
+                    <persName xml:id="NB"><forename>Numa</forename>
+                        <surname>Buchs</surname></persName>
+                </editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">Seyrig_3</idno>
+                <!--<idno type="SigiDocID">39</idno>-->
+                <idno type="sequence"></idno>
+                <date when="2022-06-07"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                        Commons Attributions-NonCommercial-ShareAlike 4.0 International
+                        License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="en">France</seg>
+                            <seg xml:lang="fr">France</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="en">Paris</seg>
+                            <seg xml:lang="fr">Paris</seg>
+                        </settlement>
+                        <institution>Bibliothèque Nationale de France</institution>
+                        <repository>Département des Monnaies, médailles et antiques</repository> 
+                        <collection xml:lang="en"> Henri Seyrig Collection</collection>
+                        <collection xml:lang="fr">Collection Henri Seyrig</collection>
+                        <idno>950</idno>
+                        <altIdentifier xml:lang="en">
+                            <repository/>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Imperial seals</seg>
+                            <seg xml:lang="fr">Sceaux impériaux</seg>
+                        </summary>
+                        <textLang mainLang="la">
+                            <seg xml:lang="en">Latin</seg>
+                            <seg xml:lang="fr">Latin</seg>
+                        </textLang>
+                        <msItem>
+                            <author>
+                                <roleName role="issuer" type="imperial" cert="high"> 
+                                    <seg xml:lang="la"><forename>Tiberius Mauricius</forename> <surname></surname>
+                                        </seg>
+                                    <seg xml:lang="en"><forename>Maurice</forename> <surname></surname>
+                                        </seg>
+                                    <seg xml:lang="fr"><forename>Maurice</forename> <surname></surname>
+                                        </seg>
+                                    <interp type="milieu" xml:lang="en">Imperial</interp>
+                                    <interp type="milieu" xml:lang="fr">Impérial</interp>
+                                </roleName>
+                            </author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="en">Seal</seg>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="en">Lead</seg>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">20</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                </support>
+                                <condition rend="wornEdge">
+                                    <p xml:lang="en">Trimmed, worn; strongly indented at the lower orifice of the canal.</p>
+                                    <p xml:lang="fr">Rogné, usé; fortement échancré à l’orifice inferieur du canal.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="layout">
+                                        <seg xml:lang="en">Bilateral iconography</seg>
+                                        <seg xml:lang="fr">Iconographie bilatérale</seg>
+                                    </rs>
+                                    <rs type="execution">
+                                        <seg xml:lang="en">Struck</seg>
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape"><seg/></rs>
+                                    <rs type="matrix" subtype="notSurviving">
+                                       <idno type="SigiDoc"/><!-- to be added later -->
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="whole">
+                                <seg xml:lang="en"/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <figure>
+                                    <figDesc n="whole" xml:lang="en">Virgin</figDesc>
+                                    <figDesc n="whole" xml:lang="fr">Vierge</figDesc>
+                                    <figDesc n="whole" xml:lang="en">Emperor Maurice</figDesc>
+                                    <figDesc n="whole" xml:lang="fr">Empereur Maurice</figDesc>
+                                </figure>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate type="analysis" notBefore="0582" notAfter="0583" evidence=" iconography lettering prosopography parallel" cert="high">
+                                <seg>582-583</seg>
+                                <interp type="datingCriteria" xml:lang="en">iconography, lettering, prosopography, parallel</interp>
+                                <interp type="datingCriteria" xml:lang="fr">iconographie, épigraphie, prosopographie, parallèle</interp>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" xml:lang="fr">
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678437">Tyre</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/267008/tyre.html">Ṣūr</placeName><!-- vérifier graphie -->
+                        </provenance> 
+                        <provenance type="found" subtype="discovered" xml:lang="en">
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/678437">Tyre</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/267008/tyre.html">Ṣūr</placeName><!-- vérifier graphie -->
+                        </provenance> 
+                        <provenance type="observed"/>
+                        <provenance type="not-observed"/>
+                        <provenance type="transferred"/>
+                        <acquisition>
+                            <p xml:lang="en">donation by Henri Seyrig</p>
+                            <p xml:lang="fr">don d'Henri Seyrig</p>
+                        </acquisition>
+                    </history>
+                    <msPart n="r"> <!--here begins the observe-->
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="r">
+                                <seg>Obverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography</seg>
+                                            <seg xml:lang="fr">Iconographie</seg>
+                                        </rs>
+                                        <p xml:lang="en"/>
+                                        <p xml:lang="fr"/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="en">The Virgin, standing, holding the Child whose head is surrounded by a vast nimbus.
+                                            In the field, on either side, a cross.</figDesc>
+                                        <figDesc n="r" xml:lang="fr">La Vierge, debout, tenant l’Enfant dont la tête est entourée d’un vaste nimbe.
+                                            Dans le champ, de part et d’autre, une croix.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en"></figDesc>
+                                        <figDesc n="decoR" xml:lang="fr"></figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history> <!--only for assembled boulloteria-->
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary n="v">
+                                <seg>Reverse</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <rs type="layout">
+                                            <seg xml:lang="en">Iconography with circular legend.</seg>
+                                            <seg xml:lang="fr">Iconographie avec légende circulaire.</seg>
+                                        </rs>
+                                        <p xml:lang="en"/>
+                                        <p xml:lang="fr">Buste de face de l’empereur diadémé, vêtu de la chlamyde.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""></seg>  
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="en">Frontal bust of the diademed emperor, wearing the chlamys</figDesc>
+                                        <figDesc n="v" xml:lang="fr">Buste de face de l’empereur diadémé, vêtu de la chlamyde.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en"></figDesc>
+                                        <figDesc n="decoV" xml:lang="fr"></figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history> <!--only for assembled boulloteria-->
+                            <origin>
+                                <origDate>
+                                    <seg xml:lang="en"/>
+                                </origDate>
+                                <date/>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2022-10-18" who="#NB">Bibliography added</change>
+            <change when="2022-06-13" who="#AS">First revision of the XML record.</change>
+            <change when="2022-06-07" who="#NB">Creation of the XML record</change>
+          
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface type="obverse">
+            <desc>Obverse</desc>
+            <graphic url="">
+                <desc xml:lang=""/>
+            </graphic>
+        </surface>
+        <surface type="reverse">
+            <desc>Reverse</desc>
+            <graphic url="" >
+                <desc xml:lang="en"></desc>
+                <desc xml:lang="fr"></desc>
+            </graphic>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve" xml:lang="la">
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab>  
+                          <lb n="1"/> <expan><abbr>D</abbr><ex>ominus</ex></expan> <expan><abbr>n</abbr><ex>oster</ex></expan> <expan><abbr>Tiber</abbr><ex>ius</ex></expan> <expan><abbr>M<supplied reason="lost">aur</supplied></abbr><supplied reason="lost"><ex>icius</ex></supplied></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuus</ex></expan></supplied> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied>
+                      </ab><!-- attention à éliminer les symboles d'édition, comme les crochets, une fois écrit le code xml qui les concerne  -->
+                  </div>
+            </div>
+                  <div type="edition" subtype="diplomatic" xml:space="preserve" xml:lang="la">
+                  <div type="textpart" subtype="face" n="obv" rend="linear">
+                      <ab/>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear">
+                      <ab/>
+                  </div>
+              </div>
+            <div type="apparatus">
+                  <listApp>
+                      <app>
+                          <note xml:lang="en"><hi rend="italic">None.</hi></note>
+                          <note xml:lang="fr"><hi rend="italic">Aucun.</hi></note>
+                      </app>
+                  </listApp>
+              </div>
+            <div type="translation">
+                  <p>Dominus noster Tiberius Mauricius, perpetuus Augustus.</p>
+                  <p xml:lang="en">Our lord Tiberius Maurice, eternal Augustus.</p>
+                  <p xml:lang="fr">Notre Seigneur Tibère Maurice, Auguste perpétuel</p>
+              </div>
+             <div type="commentary" subtype="text">
+                      <p><!--C’est du règne de Maurice que date le remplacement de la victoire par la Vierge
+sur les sceaux impériaux. La légende du revers avec le nom de Tibère placé en premier date
+ce sceau, par analogie avec les émissions de bronze de la première année du règne [1]. Il ne semble pas en revanche qu’il faille reconnaître la distinction
+paléographique proposée par cet auteur entre le M de ce type et le  des types suivants
+du régne. Notre exemplaire, de même à notre avis que celui publié par W. Seibt, présente
+en effet déjà le  oncial des autres sceaux du règne.--></p>
+              </div>
+            <div type="commentary" subtype="footnotes"> 
+                <p xml:id="footnote-1">
+                    [1]. <bibl><ptr target="BBÖ1"/>, <citedRange unit="page">p. 62-63</citedRange></bibl>.
+                </p>
+            </div>
+           <div type="bibliography" subtype="edition">
+                <p>
+                    Biliothèque Nationale de France, Paris,
+                    <bibl><ptr target="Seyrig"/>, <citedRange>3</citedRange></bibl>.
+                </p>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p>
+                    Dumbarton Oaks, Washington D.C.,
+                    <bibl><ptr target="Zacos1"/>, <citedRange>7a et b</citedRange></bibl>; 
+                </p>
+               
+                <p>
+                    Münzkabinett des Kunsthistorischen Museums, Vienne,
+                    <bibl><ptr target="BBÖ1"/>, <citedRange>9a</citedRange></bibl>.
+                </p>
+            </div>
+            <div type="bibliography" subtype="discussionParallels">
+               
+            </div>
+        </body>
+    </text>
+</TEI>
