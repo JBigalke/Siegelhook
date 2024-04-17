@@ -9,8 +9,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">a test</title>
-                <title xml:lang="de">Ein Test</title>
+                <title xml:lang="en">next test</title>
+                <title xml:lang="de">noch ein Test</title>
                 <editor xml:id="MC">Maria Teresa Catalano</editor>
                 <editor xml:id="MF">Martina Filosa</editor>
                 <editor xml:id="CS">Claudia Sode</editor>
