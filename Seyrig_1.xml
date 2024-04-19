@@ -7,8 +7,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">TEST   </title>
-                <title xml:lang="fr">Test</title>
+                <title xml:lang="en">123</title>
+                <title xml:lang="fr">4556</title>
                 <editor>
                     <persName xml:id="JC"><forename>Jean-Claude</forename>
                         <surname>Cheynet</surname></persName>
