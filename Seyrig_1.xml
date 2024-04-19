@@ -7,8 +7,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">Seal of an undetermined emperor</title>
-                <title xml:lang="fr">Sceau d'un empereur non identifié</title>
+                <title xml:lang="en">TEST   </title>
+                <title xml:lang="fr">Test</title>
                 <editor>
                     <persName xml:id="JC"><forename>Jean-Claude</forename>
                         <surname>Cheynet</surname></persName>
